@@ -1,0 +1,11 @@
+C:\Users\Oem\Documents\Visual Studio 2015\Projects\NaviCustomizer\NaviCustomizer\bin\Debug\NaviCustomizer.exe.config
+C:\Users\Oem\Documents\Visual Studio 2015\Projects\NaviCustomizer\NaviCustomizer\bin\Debug\NaviCustomizer.exe
+C:\Users\Oem\Documents\Visual Studio 2015\Projects\NaviCustomizer\NaviCustomizer\bin\Debug\NaviCustomizer.pdb
+C:\Users\Oem\Documents\Visual Studio 2015\Projects\NaviCustomizer\NaviCustomizer\obj\Debug\NaviCustomizer.csprojResolveAssemblyReference.cache
+C:\Users\Oem\Documents\Visual Studio 2015\Projects\NaviCustomizer\NaviCustomizer\obj\Debug\NaviCustomizer.BugReport.resources
+C:\Users\Oem\Documents\Visual Studio 2015\Projects\NaviCustomizer\NaviCustomizer\obj\Debug\NaviCustomizer.MainWindow.resources
+C:\Users\Oem\Documents\Visual Studio 2015\Projects\NaviCustomizer\NaviCustomizer\obj\Debug\NaviCustomizer.PieceEditor.resources
+C:\Users\Oem\Documents\Visual Studio 2015\Projects\NaviCustomizer\NaviCustomizer\obj\Debug\NaviCustomizer.Properties.Resources.resources
+C:\Users\Oem\Documents\Visual Studio 2015\Projects\NaviCustomizer\NaviCustomizer\obj\Debug\NaviCustomizer.csproj.GenerateResource.Cache
+C:\Users\Oem\Documents\Visual Studio 2015\Projects\NaviCustomizer\NaviCustomizer\obj\Debug\NaviCustomizer.exe
+C:\Users\Oem\Documents\Visual Studio 2015\Projects\NaviCustomizer\NaviCustomizer\obj\Debug\NaviCustomizer.pdb

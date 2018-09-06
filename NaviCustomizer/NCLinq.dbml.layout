@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="NCLinq">
+  <DataContextMoniker Name="/NCLinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="be2e58c4-da0f-448e-97d8-e0eb3b99b5b8" absoluteBounds="0.875, 1.125, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/NCLinqDataContext/piece" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6df16418-4005-4f93-893f-f7c375dd4c3e" absoluteBounds="0.89000000000000012, 1.585, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ad496bcd-6e4a-43e7-b624-2624323f1074" absoluteBounds="3.75, 1.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/NCLinqDataContext/point" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c7d18032-6695-4868-9298-6950996cbe03" absoluteBounds="3.7649999999999997, 1.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.875 : 1.94314697265625); (3.75 : 1.94314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NCLinqDataContext/piece/piece_point" />
+      <nodes>
+        <classShapeMoniker Id="be2e58c4-da0f-448e-97d8-e0eb3b99b5b8" />
+        <classShapeMoniker Id="ad496bcd-6e4a-43e7-b624-2624323f1074" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="NaviCustDB" Class="NCLinqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=NaviCustDB;Integrated Security=True" SettingsObjectName="NaviCustomizer.Properties.Settings" SettingsPropertyName="NaviCustDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.piece" Member="pieces">
+    <Type Name="piece">
+      <Column Name="id" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="color" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="textured" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="onGrid" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="piece_point" Member="points" ThisKey="id" OtherKey="id" Type="point" />
+    </Type>
+  </Table>
+  <Table Name="dbo.points" Member="points">
+    <Type Name="point">
+      <Column Name="id" Type="System.String" DbType="Char(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="x" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="y" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="piece_point" Member="piece" ThisKey="id" OtherKey="id" Type="piece" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+</Database>
